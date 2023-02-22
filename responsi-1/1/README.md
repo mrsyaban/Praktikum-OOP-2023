@@ -1,4 +1,4 @@
-Latihan Memahami aktivasi konstruktor
+## Responsi 1 | No. 1
 
 Berikut adalah implementasi dari kelas Hello.cpp yang isinya hanya sebuah konstruktor, dan konstruktor tersebut mencetak "Hello World!!". Jika sebuah objek kelas Hello dideklarasikan, maka konstruktor akan dihidupkan dan tercetaklah "Hello World!!" secara otomatis tanpa perlu dilakukan pemanggilan
 
