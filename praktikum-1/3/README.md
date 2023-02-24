@@ -1,0 +1,3 @@
+## Praktikum 1 | No. 3
+
+Bilangan kompleks dalam matematika, adalah bilangan yang dinotasikan oleh {\displaystyle a+bi\,}, di mana a dan b adalah bilangan riil, dan i adalah suatu bilangan imajiner di mana i 2 = −1.  Bilangan riil a disebut juga bagian riil dari bilangan kompleks, dan bilangan real b disebut bagian imajiner. Misalkan sebuah bilangan kompleks 3 + 5i, maka bilangan kompleks tersebut memiliki bagian riil yang bernilai 3 dan bagian imaginer yang bernilai 5.
