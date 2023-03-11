@@ -23,7 +23,7 @@ class Sekretaris {
 			Jika tidak perlu, hapus metode ini.
 		*/
 		~Sekretaris();
-
+			
 		/*
 			Membuat memo dengan isi sesuai yang diberikan. Metode ini
 			menggunakan metode pakaiKertas, pakaiTinta, dan pakaiEnergi.

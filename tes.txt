@@ -1,0 +1,46 @@
+(1) Tumbuhan ini milik 'a'
+(2) Tumbuhan ini milik 'a'
+(1) Tumbuhan Makan ditanam di pot '6'
+(2) Tumbuhan ini milik 'b'
+(1) Tumbuhan Obat ditanam di pot '7'
+(2) Tumbuhan ini milik 'c'
+(1) Tumbuhan Obat ditanam di pot '7'
+(1) Padi pot '8' tumbuh tinggi
+(2) Tumbuhan Makan ditanam di pot '8'
+Padi pot '8' mati
+TumbuhaMakan pot '8' mati
+Tumbuhan milik 'i' mati
+(1) Jagung pot '1' tumbuh segar
+(1) Jahe pot '2' terlihat aman
+(2) Tumbuhan Makan ditanam di pot '1'
+(2) Tumbuhan Obat ditanam di pot '2'
+(1) Jagung pot '3' tumbuh segar
+(1) Jahe pot '4' terlihat aman
+(2) Jagung pot '3' tumbuh segar
+(2) Jahe pot '4' terlihat aman
+(2) Tumbuhan Obat ditanam di pot '7'
+(1) Tumbuhan Obat ditanam di pot '7'
+(2) Tumbuhan Obat ditanam di pot '5'
+(1) Kencur pot '5' terlihat sehat
+(2) Tumbuhan Obat ditanam di pot '4'
+(1) Jahe pot '4' terlihat aman
+Kencur pot '5' mati
+TumbuhanObat pot '5' mati
+Tumbuhan milik 'h' mati
+Jahe pot '2' mati
+TumbuhanObat pot '2' mati
+Tumbuhan milik 'e' mati
+Jagung pot '1' mati
+TumbuhaMakan pot '1' mati
+Tumbuhan milik 'd' mati
+Jahe pot '4' mati
+TumbuhanObat pot '4' mati
+Tumbuhan milik 'g' mati
+Jagung pot '3' mati
+TumbuhaMakan pot '3' mati
+Tumbuhan milik 'f' mati
+TumbuhanObat pot '7' mati
+Tumbuhan milik 'c' mati
+TumbuhaMakan pot '6' mati
+Tumbuhan milik 'b' mati
+Tumbuhan milik 'a' mati

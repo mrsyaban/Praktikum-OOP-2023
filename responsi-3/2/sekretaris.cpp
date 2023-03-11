@@ -25,39 +25,47 @@ Sekretaris::~Sekretaris() {
 
 void Sekretaris::buatMemo(string pesan, string untuk) {
 
-    exception err;
+    // exception err;
     
+    // try {
+    //     pakaiKertas();
+    //     pakaiTinta(pesan.length());
+    //     pakaiEnergi();
+    //     Memo a(pesan, untuk);
+    //     Memo *newMemo = new Memo[this->memoLength + 1];
+    //     for (int i = 0; i < this->memoLength; i++) {
+    //         newMemo[i] = this->memo[i];
+    //     }
+    //     newMemo[this->memoLength] = a;
+    //     this->memoLength++;
+    //     delete[] this->memo;
+    //     this->memo = newMemo;
+    //     cout << "Memo [" << this->memoLength << "] untuk " << untuk << " berhasil dibuat" << endl;
+
+    // } catch(KertasHabisException &err) {
+    //     cout << err.what() << ", segera isi kertas" << endl;
+    // } catch(TintaKurangException &err) {
+    //     batalPakaiKertas();
+    //     cout << err.what() << ", segera isi tinta" << endl;
+    // } catch(EnergiHabisException &err) {
+    //     batalPakaiKertas();
+    //     batalPakaiTinta(pesan.length());
+    //     cout << err.what() << ", segera istirahat" << endl;
+    // } catch(PesanKepanjanganException &err) {
+    //     batalPakaiKertas();
+    //     batalPakaiTinta(pesan.length());
+    //     batalPakaiEnergi();
+    //     cout << err.what() << ", perpendek pesannya" << endl;
+    // }
     try {
         pakaiKertas();
         pakaiTinta(pesan.length());
         pakaiEnergi();
-        Memo a(pesan, untuk);
-        Memo *newMemo = new Memo[this->memoLength + 1];
-        for (int i = 0; i < this->memoLength; i++) {
-            newMemo[i] = this->memo[i];
-        }
-        newMemo[this->memoLength] = a;
+        Memo newMemo(pesan, untuk);
+        this->memo[memoLength] = newMemo; 
         this->memoLength++;
-        delete[] this->memo;
-        this->memo = newMemo;
         cout << "Memo [" << this->memoLength << "] untuk " << untuk << " berhasil dibuat" << endl;
-
-    } catch(KertasHabisException &err) {
-        cout << err.what() << ", segera isi kertas" << endl;
-    } catch(TintaKurangException &err) {
-        batalPakaiKertas();
-        cout << err.what() << ", segera isi tinta" << endl;
-    } catch(EnergiHabisException &err) {
-        batalPakaiKertas();
-        batalPakaiTinta(pesan.length());
-        cout << err.what() << ", segera istirahat" << endl;
-    } catch(PesanKepanjanganException &err) {
-        batalPakaiKertas();
-        batalPakaiTinta(pesan.length());
-        batalPakaiEnergi();
-        cout << err.what() << ", perpendek pesannya" << endl;
-    }
-    
+    } catch ()
 }
 
 void Sekretaris::pakaiKertas() {

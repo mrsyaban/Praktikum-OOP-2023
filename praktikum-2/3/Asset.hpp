@@ -3,8 +3,7 @@
 
 class Asset {
 public:
-  Asset() {
-  }
+  Asset() {}
   virtual double getValue(int years) = 0;
 };
 
