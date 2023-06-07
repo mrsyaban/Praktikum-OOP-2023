@@ -1,0 +1,7 @@
+L : identifier atribut Product diganti dari private menjadi protected agar childnya bisa menggambarkan Product
+S : membuat class ShoppingCart dan memindahkan atribut maupun method terkait shopping cart dari product ke kelas tersebut agar product tetap memenuhi single responsibiliy principle
+O : merename method calculateShoppingCartTotalPrice() menjadi calculateTotalPrice()
+S : mengubah Product menjadi abstract class agar tidak bisa di instansiasi
+L : mengubah method calculateTax() pada product menjadi abstract
+I : mengubah PaymentProcessor menjadi interface 
+D : membuat 3 class baru yang mengimplements PaymentProcessor dan memindahkan method yang bersesuaian ke kelas masing-masing dan mengubah logic fungsi checkout di class Order

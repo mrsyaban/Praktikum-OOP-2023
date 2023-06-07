@@ -8,6 +8,7 @@ public class WorkerV2 implements Runnable {
 
     public WorkerV2(){
         //TODO: Fill with the default constructor of this class.
+        this.tasks = new ArrayList<Task>();
     };
 
     public void addTask(Task newTask){
